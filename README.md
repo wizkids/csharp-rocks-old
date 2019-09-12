@@ -1,10 +1,10 @@
-# C# rocks!
+# C# Rocks!
 
 Welcome to the Wizkids C# test!
 
 This small test gives you the opportunity to show off a few of your C# coding skills and some logical thinking.
 
-You can use the Program.cs sample file or create your own solution.
+You can create your own solution or use the `Program.cs` sample file (replacing as appropriate, including inside `Main()` if you so desire).
 
 ## Tasks
 
