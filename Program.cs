@@ -18,6 +18,10 @@ namespace C_Sharp_rocks
             Console.WriteLine(string.Format("IsPalindrome(\"{0}\"): {1}", word, IsPalindrome(word)));
             Console.WriteLine();
 
+            Console.WriteLine("FooBar:");
+            PrintFoorBar();
+            Console.WriteLine();
+            
             Console.WriteLine("Text with valid emails replaced by \"[EMAIL]\":");
             Console.WriteLine(ReplaceEmails(text, "[EMAIL]"));
             Console.WriteLine();
@@ -27,7 +31,7 @@ namespace C_Sharp_rocks
             Console.WriteLine(string.Join(", ", alternativeWords));
             Console.WriteLine();
 
-            // TODO: 3.a How many non-unique alternative words can be generated using the word test, alphabet a-z (26 letters) and maximum Damerau–Levenshtein distance = 1?
+            // TODO: 4.a How many non-unique alternative words can be generated using the word test, alphabet a-z (26 letters) and maximum Damerau–Levenshtein distance = 1?
             Console.WriteLine(string.Format("Number of alternative words: {0}", alternativeWords.Count));
             Console.WriteLine();
 
@@ -44,23 +48,29 @@ namespace C_Sharp_rocks
 
             return false;
         }
+        
+        static void PrintFoorBar()
+        {
+            // TODO: 2. Write a method that prints the numbers from 1 to 100, but for multiples of 3 print Foo,
+            // for multiples of 5 print Bar and for numbers that are multiples of both 3 and 5 print FooBar.
+        }
 
         /// <summary>
-        /// TODO: 2.a In the summary of the method explain your considerations about the regex. 
+        /// TODO: 3.a In the summary of the method explain your considerations about the regex. 
         /// </summary>
         /// <param name="text"></param>
         /// <param name="replacement"></param>
         /// <returns></returns>
         static string ReplaceEmails(string text, string replacement)
         {
-            // TODO: 2. Write a method that can find and replace valid email adresses in a (string) using a regex.
+            // TODO: 3. Write a method that can find and replace valid email adresses in a (string) using a regex.
 
             return text;
         }
 
         static List<string> GenerateWords(string word)
         {
-            // TODO: 3.Write a method that can generate a list of words based on input word and alphabet.
+            // TODO: 4.Write a method that can generate a list of words based on input word and alphabet.
             // Alphabet can be provided as a parameter, generated internally or whatever you find appropiate
 
             return new List<string>();
@@ -68,7 +78,7 @@ namespace C_Sharp_rocks
 
         static int GetAlternativeWordsCount(int wordLength, int alphabetLength)
         {
-            // TODO: 3.b Write a method that can calculate the number of non-unique alternative words based on input word length and alphabet length (assuming maximum Damerau–Levenshtein distance = 1).
+            // TODO: 4.b Write a method that can calculate the number of non-unique alternative words based on input word length and alphabet length (assuming maximum Damerau–Levenshtein distance = 1).
 
             return 0;
         }
