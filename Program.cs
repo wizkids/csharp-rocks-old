@@ -79,6 +79,7 @@ namespace C_Sharp_rocks
         static int GetAlternativeWordsCount(int wordLength, int alphabetLength)
         {
             // TODO: 4.b Write a method that can calculate the number of non-unique alternative words based on input word length and alphabet length (assuming maximum Damerau–Levenshtein distance = 1).
+            // (Without generating the word list again, i.e. write a formula based on input word length and alphabet word length.)
 
             return 0;
         }
