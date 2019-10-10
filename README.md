@@ -39,7 +39,3 @@ The method should generate all possible alternative words based on the 4 operati
 
 ##### 4.b Write a method that can calculate the number of non-unique alternative words based on input word length and alphabet length (assuming maximum Damerau–Levenshtein distance = 1).
 *Without generating the word list again, i.e. write a formula based on input word length and alphabet word length.*
-
-#### 5. Add your code in a Git project on GitHub and share the link with your Wizkids contact.
-
-#### 6. (OPTIONAL, but strongly recommended) Share your most awesome C# project (in which you've been a major contributor) with us - Git repository preferred.
