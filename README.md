@@ -12,13 +12,14 @@ You can create your own solution or use the `Program.cs` sample file (replacing 
 
 #### 2. Write a method that prints the numbers from 1 to 100, but for multiples of 3 print `Foo`, for multiples of 5 print `Bar` and for numbers that are multiples of both 3 and 5 print `FooBar`.
 
-#### 3. Write a method that can find and replace valid email adresses in a (string).
+#### 3. Write a method that can find and replace valid email adresses in a `string`.
 For example, find and replace all valid email adresses in the following text:
 
 ```
 Christian has the email address christian+123@gmail.com.
 Christian's friend, John Cave-Brown, has the email address john.cave-brown@gmail.com.
-John's daughter Kira studies at Oxford University and has the email adress Kira123@oxford.co.uk. Her Twitter handle is @kira.cavebrown.
+John's daughter Kira studies at Oxford University and has the email adress Kira123@oxford.co.uk.
+Her Twitter handle is @kira.cavebrown.
 ```
 
 #### 4. Write a method that can generate a list of words based on input word and alphabet.
