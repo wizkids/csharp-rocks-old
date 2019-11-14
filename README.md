@@ -12,16 +12,14 @@ You can create your own solution or use the `Program.cs` sample file (replacing 
 
 #### 2. Write a method that prints the numbers from 1 to 100, but for multiples of 3 print `Foo`, for multiples of 5 print `Bar` and for numbers that are multiples of both 3 and 5 print `FooBar`.
 
-#### 3. Write a method that can find and replace valid email adresses in a (string) using a regex.
+#### 3. Write a method that can find and replace valid email adresses in a (string).
 For example, find and replace all valid email adresses in the following text:
 
 ```
 Christian has the email address christian+123@gmail.com.
-Christian's friend, Lars-Ole Jensen, has the email address lars-ole.jensen@gmail.com.
-Lars-Ole's daugther Britt studies at Oxford University and has the email adress britt123@oxford.co.uk.
+Christian's friend, John Cave-Brown, has the email address john.cave-brown@gmail.com.
+John's daughter Kira studies at Oxford University and has the email adress Kira123@oxford.co.uk. Her Twitter handle is @kira.cavebrown.
 ```
-
-##### 3.a In the summary of the method explain your considerations about the regex.
 
 #### 4. Write a method that can generate a list of words based on input word and alphabet.
 In spell checking it is assumed that all words are wrong and alternative words are proposed if they fit better in the context. One way to generate alternative words is taking the original word and applying certain operations:
